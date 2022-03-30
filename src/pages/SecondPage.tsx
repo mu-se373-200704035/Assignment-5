@@ -2,7 +2,8 @@ import { IonContent, IonHeader, IonItem, IonPage, IonPopover, IonTitle, IonToolb
 import { Link } from "react-router-dom";
 import "./SecondPage.css"
 import hamburger from "../icons/hamburger.svg";
-
+/* This page only contains a popover menu and a link to the homepage.*/
+/* The popover menu is not functional, it only has some mock items*/
 const SecondPage : React.FC = () => {
     return(
         <IonPage>
