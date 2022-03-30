@@ -1,0 +1,22 @@
+.router-link{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2effee;
+    transition: 75ms ease-in-out;
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+.router-link:active{
+    background-color: #00dac7;
+}
+.hamburger-container{
+    background: white;
+    padding: 5px;
+}
+.hamburger{
+    width: 35px;
+}

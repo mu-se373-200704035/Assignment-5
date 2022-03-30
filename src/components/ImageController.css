@@ -1,0 +1,24 @@
+.image-btn{
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #2effee;
+    transition: 75ms ease-in-out;
+}
+.image-btn:active{
+    background-color: #00dac7;
+}
+.image-container{
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #555;
+    margin: 0 auto 2rem;
+}
+.image{
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+}
