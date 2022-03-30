@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonItem, IonPage, IonPopover, IonToolbar } from "@ionic/react"
+import { IonContent, IonHeader, IonItem, IonPage, IonPopover, IonTitle, IonToolbar } from "@ionic/react"
 import { Link } from "react-router-dom";
 import "./SecondPage.css"
 import hamburger from "../icons/hamburger.svg";
@@ -8,6 +8,7 @@ const SecondPage : React.FC = () => {
         <IonPage>
             <IonHeader>
                 <IonToolbar className="toolbar">
+                    <IonTitle>Second Page</IonTitle>
                     <button className="hamburger-container"
                     slot="end" id="pop">
                         <img className="hamburger"

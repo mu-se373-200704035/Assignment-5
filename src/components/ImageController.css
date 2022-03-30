@@ -11,14 +11,12 @@
     background-color: #00dac7;
 }
 .image-container{
-    width: 300px;
-    height: 200px;
-    border-radius: 50%;
+    width: 320px;
+    height: 220px;
     background-color: #555;
     margin: 0 auto 2rem;
 }
 .image{
-    width: 300px;
-    height: 200px;
-    border-radius: 50%;
+    width: 320px;
+    height: 220px;
 }
